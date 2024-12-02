@@ -4,7 +4,7 @@ name: CI
 on:
   pull_request:
   push:
-    branches: ["main"]
+    branches: ["main", "natural-ci"]
 
 jobs:
   generate-matrix:
@@ -27,6 +27,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix: ${{ fromJSON(needs.generate-matrix.outputs.matrix) }}
+      fail-fast: false
     steps:
       - name: Checkout base repo
         uses: actions/checkout@v4

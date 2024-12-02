@@ -96,6 +96,7 @@ instance Data.Text.Display.Core.Display GHC.Internal.Int.Int32 -- Defined in ‘
 instance Data.Text.Display.Core.Display GHC.Internal.Int.Int64 -- Defined in ‘Data.Text.Display.Core’
 instance Data.Text.Display.Core.Display GHC.Internal.Int.Int8 -- Defined in ‘Data.Text.Display.Core’
 instance Data.Text.Display.Core.Display GHC.Num.Integer.Integer -- Defined in ‘Data.Text.Display.Core’
+instance Data.Text.Display.Core.Display GHC.Num.Natural.Natural -- Defined in ‘Data.Text.Display.Core’
 instance forall a. Data.Text.Display.Core.Display a => Data.Text.Display.Core.Display [a] -- Defined in ‘Data.Text.Display.Core’
 instance forall a. Data.Text.Display.Core.Display a => Data.Text.Display.Core.Display (GHC.Internal.Maybe.Maybe a) -- Defined in ‘Data.Text.Display.Core’
 instance forall a. Data.Text.Display.Core.Display a => Data.Text.Display.Core.Display (GHC.Internal.Base.NonEmpty a) -- Defined in ‘Data.Text.Display.Core’
