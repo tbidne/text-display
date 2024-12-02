@@ -365,6 +365,9 @@ deriving via (DisplayDecimal Word32) instance Display Word32
 -- | @since 0.0.1.0
 deriving via (DisplayDecimal Word64) instance Display Word64
 
+-- | @since 1.0.1.0
+deriving via (DisplayDecimal Natural) instance Display Natural
+
 -- | @since 0.0.1.0
 deriving via (ShowInstance IOException) instance Display IOException
 

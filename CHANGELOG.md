@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## [v1.0.1.0]
+
+* Added instance for `Natural`.
+
 ## [v1.0.0.0] - 21/07/2024
 
 * Remove support for GHC 8.10 to 9.0 inclusive
